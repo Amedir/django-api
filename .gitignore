@@ -1,0 +1,21 @@
+# Arquivos de ambiente e pacotes
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+env/
+
+# Arquivos de log, dados temporários e caches
+*.log
+*.sqlite3
+db.sqlite3
+media/
+static/
+
+# Arquivos de configuração sensíveis
+*.secret_key
+*.env
+
+# Outros
+.DS_Store
